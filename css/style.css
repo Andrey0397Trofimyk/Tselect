@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(175, 172, 172);
+}
+
+.card {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.card__second {
+    margin-top: 100px;
+}
+
+.tselect__selection {
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.tselect__placeholder {
+    display: inline-block;
+    width: auto;
+}
+
+.tselect__container {
+    position: relative;
+    display: none;
+    width: 300px;
+    margin: 0 auto;
+    background-color: #fff;
+    z-index: 9999;
+}
+.tselect__search {
+    display: none;
+}
+.tselect__search.active {
+    display: block;
+}
+
+.tselect__field {
+    width: auto;
+}
+
+.tselect__container-open {
+    display: block;
+}
+
+.result-list__item {
+    cursor:pointer;
+    list-style-type: none;
+}
